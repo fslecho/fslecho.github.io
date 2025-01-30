@@ -4,6 +4,14 @@
 <title>Shilin Fu</title>
 
 <style media="screen" type="text/css">
+	ul {
+    list-style: none; /* 去掉默认列表样式 */
+    padding: 0;
+	}
+
+	ul li {
+		margin-bottom: 10px; /* 控制列表项之间的间距 */
+	}
     table {
       counter-reset: rowNumber;
     }
@@ -17,6 +25,14 @@
       text-align: left;
     }
 
+    /* .uitable tr::before {
+      display: table-cell;
+      vertical-align: middle;
+      counter-increment: rowNumber;
+      content: counter(rowNumber) ".";
+      padding-right: 0.3em;
+      text-align: left;
+    } */
 body
 {
   border: 0pt none;
@@ -160,8 +176,38 @@ body {
 	</tbody>
 	</table>
 	
+	<h2>Educations</h2>
+	<hr>
+	<!-- <table cellspacing="10">
+	<hr>
+	<tbody>
+		<tr>
+			<td>
+				<b><font size="4">2022.09 - present, PhD student, Dalian University of Technology. </font></b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b><font size="4">2019.09 - 2022.06, Master, Liaoning Normal University. </font></b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b><font size="4">2015.09 - 2019.06, Undergraduate, Liaoning Normal University. </font></b>
+			</td>
+		</tr>
+	</tbody>
+	</table> -->
 
 
+
+	<ul cellspacing="10">
+		<li><b><font size="4">2022.09 - present, PhD student, Dalian University of Technology. </font></b></li>
+		<li><b><font size="4">2019.09 - 2022.06, Master, Liaoning Normal University. </font></b></li>
+		<li><b><font size="4">2015.09 - 2019.06, Undergraduate, Liaoning Normal University. </font></b></li>
+	
+	</ul>
+		
 </body>
 
 </html>
